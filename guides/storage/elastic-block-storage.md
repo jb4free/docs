@@ -30,10 +30,10 @@ When you need persistent storage, with built-in replication and snapshots, our b
 A snapshot is a differential copy of your volume made at a specific moment in time.  Billing for all snapshots is at our lower $0.07/GB per month tier.  Snapshots are created on a re-occuring schedule, by creating a snapshot schedule.
 
 To create a snapshot schedule during volume creation, enable snapshot in the optional snaptshot settings menu, and select the quantity of snapshots to create and the frequency at which you will create snapshots.
-![elastic-block-storage](/images/elastic-block-storage/snapschedules1.png)
+![elastic-block-storage](/images/elastic-block-storage/snapschedule1.png)
 
 You can also choose to create or manage a snapshot schedule on an already created snapshot.
-![elastic-block-storage](/images/elastic-block-storage/snapschedules2.png)
+![elastic-block-storage](/images/elastic-block-storage/snapschedule2.png)
 
 ### Attach / Detach the Volume to the Server
 
